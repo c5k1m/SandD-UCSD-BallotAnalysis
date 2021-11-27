@@ -1,3 +1,7 @@
 # SandD-UCSD-BallotAnalysis
 
-ddfdf
+This file contains the process of email scraping all ballots into one dataframe and how the actual process of carrying out the TF-IDF analysis on the ballots from the 2020-2021 Competitive Season for Speech and Debate at UCSD.
+
+Ballots were scraped from emails into one dataframe with the help of the forensicstournament.net website. The website allows coordinators of Speech and Debate at UCSD to receive ALL ballots from the 2020-2021 Competitive Season; a ballot is a form by which a competitor's feedback and results are posted for every round that they participated in. By receiving all ballots from every competitors from every tournament, we organized ballots into 9 separate folders, each folder being a tournament that we attended. Then, the Python script "ballot_email_scraping.py" contains the process of actually extracting all ballots into one dataframe.
+
+The actual file that contains the process of analyzing the ballots can be provided upon request. Since Speech and Debate at UCSD is a nationally-ranked team and the team prides itself on finding innovative techniques to improving our overall speaking and debating performances, we try to keep much of our "performance-enhancement" techniques as confidential as possible. However, upon request, we can share the file and explain how we carried out the TF-IDF analysis and even explain some of the prescriptions that the student coaches and I have made to the team overall for the 2021-2022 Competitive Season based on our performance during the 2020-2021 Competitive Season.
